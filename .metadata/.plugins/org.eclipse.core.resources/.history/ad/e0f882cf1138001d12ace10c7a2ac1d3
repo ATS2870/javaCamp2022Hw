@@ -1,0 +1,39 @@
+package sesliHarfler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char harf ='k';
+		
+		switch (harf) {
+		case 'A':
+			System.out.println("A kalın sesli bir harftir");
+			break;
+		case 'I':
+			System.out.println("I kalın sesli bir harftir");
+			break;
+		case 'O':
+			System.out.println("O kalın sesli bir harftir");
+			break;
+		case 'U':
+			System.out.println("U kalın sesli bir harftir");
+			break;
+		case 'E':
+			System.out.println("E ince sesli bir harftir");
+			break;
+		case 'İ':
+			System.out.println("İ ince sesli bir harftir");
+			break;
+		case 'Ö':
+			System.out.println("Ö ince sesli bir harftir");
+			break;
+		case 'Ü':
+			System.out.println("Ü ince sesli bir harftir");
+			
+		default:
+			System.out.println("Geçersiz harf girdiniz");
+		}
+
+	}
+
+}
